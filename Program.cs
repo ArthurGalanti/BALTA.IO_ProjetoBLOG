@@ -1,4 +1,10 @@
-﻿internal class Program
+﻿using BALTA.IO_ProjetoBLOG.Screens.CategoryScreens;
+using BALTA.IO_ProjetoBLOG.Screens.PostScreens;
+using BALTA.IO_ProjetoBLOG.Screens.RoleScreens;
+using BALTA.IO_ProjetoBLOG.Screens.TagScreens;
+using BALTA.IO_ProjetoBLOG.Screens.UserScreens;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -21,14 +27,19 @@
         switch (option)
         {
             case 1:
+                MenuUserScreen.Load();
                 break;
             case 2:
+                MenuRoleScreen.Load();
                 break;
             case 3:
+                MenuPostScreen.Load();
                 break;
             case 4:
+                MenuCategoryScreen.Load();
                 break;
             case 5:
+                MenuTagScreen.Load();
                 break;
             default:
                 Load();
