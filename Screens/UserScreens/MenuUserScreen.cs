@@ -18,14 +18,19 @@ namespace BALTA.IO_ProjetoBLOG.Screens.UserScreens
             switch (option)
             {
                 case 1:
+                    GetAllUsersScreen.GetAll();
                     break;
                 case 2:
+                    CreateUserScreen.Create();
                     break;
                 case 3:
+                    UpdateUserScreen.Update();
                     break;
                 case 4:
+                    DeleteUserScreen.Delete();
                     break;
                 case 5:
+                    LinkUserWithRoleScreen.LinkWithRole();
                     break;
                 case 0:
                     Program.Load();
@@ -35,7 +40,6 @@ namespace BALTA.IO_ProjetoBLOG.Screens.UserScreens
                     break;
             }
 
-            
         }
 
         public static int? CaptureOption()

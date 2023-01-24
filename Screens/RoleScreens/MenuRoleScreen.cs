@@ -17,12 +17,16 @@ namespace BALTA.IO_ProjetoBLOG.Screens.RoleScreens
             switch (option)
             {
                 case 1:
+                    GetAllRolesScreen.GetAll();
                     break;
                 case 2:
+                    CreateRoleScreen.Create();
                     break;
                 case 3:
+                    UpdateRoleScreen.Update();
                     break;
                 case 4:
+                    DeleteRoleScreen.Delete();
                     break;
                 case 0:
                     Program.Load();
