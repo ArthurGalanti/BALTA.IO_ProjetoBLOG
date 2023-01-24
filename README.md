@@ -18,18 +18,18 @@ O curso aborda tópicos como:
 ## Desafios
 
 1. Cadastrar um usuário :heavy_check_mark:
-1.1 Listar os usuários (Nome, Email, e perfis separados por virgula) :heavy_check_mark:
-1.2 Vincular um usuário a um perfil :heavy_check_mark:
-1. Cadastrar um perfil :heavy_check_mark:
-2. Cadastrar uma categoria :heavy_check_mark:
-3.1 Listar categorias com quantidade de posts :heavy_check_mark:
-3.2 Listar os posts de uma categoria :heavy_check_mark:
-1. Cadastrar um tag :heavy_check_mark:
-4.1 Listar tags com quantidade de posts :heavy_check_mark:
-1. Cadastrar um post :heavy_check_mark:
-5.1 Vincular um post a uma tag :heavy_check_mark:
-5.2 Listar todos os posts com sua categoria :heavy_check_mark:
-5.3 Listar os posts com suas tags (separadas por vírgula) :heavy_check_mark:
+2. Listar os usuários (Nome, Email, e perfis separados por virgula) :heavy_check_mark:
+3. Vincular um usuário a um perfil :heavy_check_mark:
+4. Cadastrar um perfil :heavy_check_mark:
+5. Cadastrar uma categoria :heavy_check_mark:
+6. Listar categorias com quantidade de posts :heavy_check_mark:
+7. Listar os posts de uma categoria :heavy_check_mark:
+8. Cadastrar um tag :heavy_check_mark:
+9. Listar tags com quantidade de posts :heavy_check_mark:
+10. Cadastrar um post :heavy_check_mark:
+11. Vincular um post a uma tag :heavy_check_mark:
+12. Listar todos os posts com sua categoria :heavy_check_mark:
+13. Listar os posts com suas tags (separadas por vírgula) :heavy_check_mark:
 
 ## Considerações finais
 
