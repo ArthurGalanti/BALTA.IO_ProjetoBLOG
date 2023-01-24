@@ -5,6 +5,7 @@ namespace BALTA.IO_ProjetoBLOG.Models
     [Table("[User]")]
     public class User
     {
+
         public User()
         => Roles = new List<Role>();
 
@@ -18,5 +19,6 @@ namespace BALTA.IO_ProjetoBLOG.Models
 
         [Write(false)]
         public List<Role> Roles { get; set; }
+        
     }
 }

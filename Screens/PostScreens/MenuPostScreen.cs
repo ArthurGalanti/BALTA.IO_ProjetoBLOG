@@ -18,14 +18,19 @@ namespace BALTA.IO_ProjetoBLOG.Screens.PostScreens
             switch (option)
             {
                 case 1:
+                    GetAllPostsScreen.GetAll();
                     break;
                 case 2:
+                    CreatePostScreen.Create();
                     break;
                 case 3:
+                    UpdatePostScreen.Update();
                     break;
                 case 4:
+                    DeletePostScreen.Delete();
                     break;
                 case 5:
+                    LinkPostWithTagScreen.LinkWithTag();
                     break;
                 case 0:
                     Program.Load();

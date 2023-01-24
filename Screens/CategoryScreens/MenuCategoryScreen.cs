@@ -18,14 +18,19 @@ namespace BALTA.IO_ProjetoBLOG.Screens.CategoryScreens
             switch (option)
             {
                 case 1:
+                    GetAllCategoriesScreen.GetAll();
                     break;
                 case 2:
+                    CreateCategoryScreen.Create();
                     break;
                 case 3:
+                    UpdateCategoryScreen.Update();
                     break;
                 case 4:
+                    DeleteCategoryScreen.Delete();
                     break;
                 case 5:
+                    GetCategoryPosts.GetPosts();
                     break;
                 case 0:
                     Program.Load();

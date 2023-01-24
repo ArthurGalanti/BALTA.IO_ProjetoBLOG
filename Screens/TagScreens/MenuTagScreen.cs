@@ -17,12 +17,16 @@ namespace BALTA.IO_ProjetoBLOG.Screens.TagScreens
             switch (option)
             {
                 case 1:
+                    GetAllTagsScreen.GetAll();
                     break;
                 case 2:
+                    CreateTagScreen.Create();
                     break;
                 case 3:
+                    UpdateTagScreen.Update();
                     break;
                 case 4:
+                    DeleteTagScreen.Delete();
                     break;
                 case 0:
                     Program.Load();
